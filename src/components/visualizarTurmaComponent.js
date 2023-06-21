@@ -235,7 +235,7 @@ function VisualizarTurmaComponent({ idTurma }) {
                 <div className="container-fluid d-flex">
                     <Link ref={linkRef} to={"/minhas-turmas"} />
                     <div>
-                        <div className="d-flex flex-wrap justify-content-around m-auto mt-4 w-100" style={{ minWidth: '50vw' }}>
+                        <div className="d-flex flex-wrap justify-content-around m-auto mt-4 w-100" style={{ minWidth: '65vw' }}>
                             {
                                 turma.atividades.map((atividade) =>
                                     atividadeCard(atividade)
